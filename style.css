@@ -413,7 +413,7 @@ header{
 }
 
 
-/* *********** Navbar Styling  *************** */
+/* ***********  SUBSCRIBE CONTAINER  *************** */
 .subscribe__container{
     background: var(--color-primary);
     color: var(--color-white);
@@ -428,6 +428,11 @@ header{
     margin-top: 1.4rem;
     width: 80%;
 }
+
+.subscribe__container a{
+    position: relative;
+}
+
 
 /* *********** Footer Styling  *************** */
 footer{
@@ -715,9 +720,7 @@ footer ul li a:hover{
 
 /******************** Media Queries for Phone **********************/
 @media screen and (max-width: 600px){
-    body{
-        background: red;
-    }
+
     html{
         font-size: 14px;
     }
